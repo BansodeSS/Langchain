@@ -1,2 +1,7 @@
 langchain
 huggingface_hub
+streamlit
+google-generativeai
+python-dotenv
+pypdf2
+chromadb
