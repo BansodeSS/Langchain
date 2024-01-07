@@ -29,8 +29,8 @@ def input_image_setup(upload_file):
 
 
 
-st.set_page_config(page_title="Multilanguage Invoice Exactor")
-st.header("Multilanguage Invoice Exactor")
+st.set_page_config(page_title="Multi-Language Invoice Extractor")
+st.header("MultiLanguage Invoice Extractor")
 input = st.text_input("Input Prompt:",key="input")
 upload_file = st.file_uploader("Choose an image of the Invoice",type=["jpg","jpeg","png"])
 image =""
