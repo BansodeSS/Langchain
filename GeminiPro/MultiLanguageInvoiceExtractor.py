@@ -28,7 +28,6 @@ def input_image_setup(upload_file):
         raise FileNotFoundError("No file Uploaded")
 
 
-
 st.set_page_config(page_title="Multi-Language Invoice Extractor")
 st.header("MultiLanguage Invoice Extractor")
 input = st.text_input("Input Prompt:",key="input")
